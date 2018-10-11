@@ -12,7 +12,13 @@ public class NetIncome {
         System.out.println("Which hourly rate, 1 to 5?");
         int rate = input.nextInt();
 
-        double gross = hours * hourlyRateList[rate - 1];
+        double gross = 0;
+        if (hours <= 80) {
+            gross = hours * hourlyRateList[rate - 1];
+        } else {
+            gross = 80 * hourlyRateList[rate - 1] + (hours - 80) * hourlyRateList[rate - 1] * 1.5;
+        }
+
         double cpp = gross * 0.05;
         double ei = gross * 0.02;
         double net = gross - cpp - ei;
