@@ -17,10 +17,10 @@ public class NetIncome {
         double ei = gross * 0.02;
         double net = gross - cpp - ei;
 
-        System.out.println("Gross Income : " + gross);
-        System.out.println("CPP : " + cpp);
-        System.out.println("EI : " + ei);
-        System.out.println("Net Income : " + net);
+        System.out.printf("Gross Income : $%.2f\n", gross);
+        System.out.printf("CPP : $%.2f\n", cpp);
+        System.out.printf("EI : $%.2f\n", ei);
+        System.out.printf("Net Income : $%.2f\n", net);
 
     }
 }
