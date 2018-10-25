@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Lottery {
+public class Lab2Question1 {
 
   public static void main(String... args) {
 
