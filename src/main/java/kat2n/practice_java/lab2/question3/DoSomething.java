@@ -1,3 +1,5 @@
+package main.java.kat2n.practice_java.lab2.question3;
+
 public class Lab2Question3DoSomething {
 
   final String BLANK = " ";

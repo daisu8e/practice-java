@@ -1,7 +1,9 @@
+package main.java.kat2n.practice_java.lab2.question1;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Lab2Question1 {
+public class Lottery {
 
   public static void main(String... args) {
 

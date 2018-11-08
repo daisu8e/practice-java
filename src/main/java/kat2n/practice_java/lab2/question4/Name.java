@@ -1,3 +1,5 @@
+package main.java.kat2n.practice_java.lab2.question4;
+
 public class Lab2Question4Name {
   private String firstName;
   private String lastName;

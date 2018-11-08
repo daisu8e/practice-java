@@ -1,6 +1,8 @@
+package main.java.kat2n.practice_java.lab2.question2;
+
 import java.util.Scanner;
 
-public class Lab2Question2 {
+public class Marks {
   public static void main(String... args) {
     Scanner input = new Scanner(System.in);
     int sum = 0;

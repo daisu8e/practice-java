@@ -1,3 +1,5 @@
+package main.java.kat2n.practice_java.lab2.question3;
+
 import java.util.Scanner;
 
 public class Lab2Question3DoSomethingMain {
