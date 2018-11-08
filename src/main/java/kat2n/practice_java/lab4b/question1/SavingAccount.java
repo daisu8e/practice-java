@@ -1,9 +1,11 @@
-public class Lab4bQuestion1SavingAccount {
+package main.java.kat2n.practice_java.lab4b.question1;
+
+public class SavingAccount {
 
   private double balance;
   private double interest;
 
-  public Lab4bQuestion1SavingAccount(double balance, double interest) {
+  public SavingAccount(double balance, double interest) {
     this.balance = balance;
     this.interest = interest;
   }

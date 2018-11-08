@@ -1,8 +1,10 @@
+package main.java.kat2n.practice_java.lab4a.question2;
+
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class Lab4aQuestion2 {
+public class StudentList {
   public static void main(String... args) {
     HashMap<Integer, String> students = new HashMap<>();
 

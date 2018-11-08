@@ -1,4 +1,6 @@
-public class Lab4bQuestion2 {
+package main.java.kat2n.practice_java.lab4b.question2;
+
+public class ArrayComparison {
   public static void main(String... args) {
     int[] a = {1, 2, 5, 5, 8, 9, 7, 10, 12, 14};
     int[] b = {1, 0, 6, 15, 6, 4, 7, 0, 12, 15};

@@ -1,10 +1,12 @@
+package main.java.kat2n.practice_java.lab4a.question1;
+
 import java.io.IOException;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileReader;
 import java.io.PrintWriter;
 
-public class Lab4aQuestion1StudentRecord {
+public class StudentRecord {
   public void print() throws IOException {
 
     File test = new File("test.txt");

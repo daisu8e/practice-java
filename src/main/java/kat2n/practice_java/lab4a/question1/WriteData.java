@@ -1,8 +1,10 @@
+package main.java.kat2n.practice_java.lab4a.question1;
+
 import java.io.IOException;
 import java.io.File;
 import java.io.PrintWriter;
 
-public class Lab4aQuestion1WriteData {
+public class WriteData {
   public static void main(String[] args) throws IOException {
 
     File file = new File("test.txt");
@@ -17,7 +19,7 @@ public class Lab4aQuestion1WriteData {
       output.close();
     }
 
-    Lab4aQuestion1StudentRecord studentRecord = new Lab4aQuestion1StudentRecord();
+    StudentRecord studentRecord = new StudentRecord();
     studentRecord.print();
   }
 }

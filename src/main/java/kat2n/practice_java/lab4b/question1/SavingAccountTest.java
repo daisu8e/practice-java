@@ -1,6 +1,8 @@
-public class Lab4bQuestion1SavingAccountTest {
+package main.java.kat2n.practice_java.lab4b.question1;
+
+public class SavingAccountTest {
   public static void main(String... args) {
-    Lab4bQuestion1SavingAccount savingAccount = new Lab4bQuestion1SavingAccount(1000, 0.10);
+    SavingAccount savingAccount = new SavingAccount(1000, 0.10);
     savingAccount.withdraw(240);
     savingAccount.deposit(400);
 
