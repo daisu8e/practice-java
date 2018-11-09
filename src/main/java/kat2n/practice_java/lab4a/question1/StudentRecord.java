@@ -27,7 +27,7 @@ public class StudentRecord {
       double score3 = Double.parseDouble(line[3]);
       double average = (score1 + score2 + score3) / 3;
 
-      output.printf("Student Name: " + studentName + "\n");
+      output.printf("main.java.kat2n.practice_java.Student Name: " + studentName + "\n");
       output.printf("Test scores: %.2f %.2f %.2f\n", score1, score2, score3);
       output.printf("Average test scores: %.2f\n", average);
       output.printf("\n");
