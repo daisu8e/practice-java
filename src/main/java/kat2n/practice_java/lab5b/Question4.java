@@ -1,22 +1,15 @@
 package main.java.kat2n.practice_java.lab5b;
 
-import java.util.Scanner;
+import main.java.kat2n.practice_java.lab5b.question4.IntelliChat;
+import main.java.kat2n.practice_java.lab5b.question4.User;
 
 public class Question4 {
   public static void main(String[] args) {
-    System.out.println("Hello, let's talk.");
 
-    Scanner input = new Scanner(System.in);
+    IntelliChat chat = new IntelliChat();
+    User user = new User();
 
-    while (true) {
-      String comment = input.nextLine();
-
-      if (comment.equals("")) {
-        System.out.println("Say something, please");
-      } else if (comment.equals("Bye")) {
-        System.exit(0);
-      }
-    }
+    chat.start(user);
 
   }
 }
